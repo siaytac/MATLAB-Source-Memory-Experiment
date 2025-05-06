@@ -16,7 +16,7 @@ Later, participants are tested on their memory for both the content and the sour
   ```matlab
   runexp(99) % Replace 99 with any subject number.
 
-- Multiple MATLAB scripts are included to support the experiment (e.g., distraction task, setup, stimulus presentation, determining mouse position).
+- Multiple MATLAB scripts are included to support the experiment (e.g., setup, stimulus presentation, distraction task, mouse position).
 - `instructions/`: Subfolder containing the instruction files shown to participants before they began the task.
 - `sentences/`: Subfolder with several text files containing categorized sentences used in the experiment.
 - `images/`: Contains two images (`doc` and `law`) representing the doctor and lawyer sources.
