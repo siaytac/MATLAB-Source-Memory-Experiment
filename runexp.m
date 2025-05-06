@@ -34,7 +34,7 @@ function runexp(subject_id)
     fclose(Study_File);
  
     %Instruction
-    %instructions(Parameters);
+    instructions(Parameters);
   
     %%%%Experiment session%%%%
     %Study phase   
@@ -44,7 +44,7 @@ function runexp(subject_id)
     Screen('Flip', Parameters.myWindow);
     WaitSecs(2);
 
-    %study(Parameters, studylist);
+    study(Parameters, studylist);
 
     %%Distraction Phase
     Screen('TextSize', Parameters.myWindow, 80);
@@ -53,7 +53,7 @@ function runexp(subject_id)
     Screen('Flip', Parameters.myWindow);
     WaitSecs(2);
 
-    % distraction(Parameters); 
+    distraction(Parameters); 
 
     %%Test phase
     Screen('TextSize', Parameters.myWindow, 80);
